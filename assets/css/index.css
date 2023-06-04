@@ -1,0 +1,317 @@
+    /* B O D Y */
+
+.body {
+    align-items: center;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    font-family:  Raleway, "Helvetica Neue", Helvetica, Arial;
+    padding: 0px;
+}
+
+    /* H E A D E R */
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: Raleway;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height:115px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 100%;
+}
+
+.marcoIzquierdo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.buscador {
+    background: #F5F5F5;
+    border-radius: 2rem;
+    height: 40px;
+    width: 393px;
+}
+
+.buscador::placeholder {
+    background-image: url("../img/lupa.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin: 0 1rem;
+    background-size: 15px;
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    left: 16px;
+    position: relative;
+}
+
+.btnlogin { 
+    border: 0.1rem #2A7AE4 solid;
+    color: #2A7AE4;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    height: 48px;
+    line-height: 18.78px;
+    width: 140px;
+    text-align: center;
+}
+
+.logo {
+    padding: auto;
+    position: relative;
+}
+
+    /* N A V */
+
+.banner {
+    align-items: center;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 352px;
+    width: auto;
+}
+
+.promociones {
+    align-items: flex-start;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 352px;
+    position: relative;
+    width: 100%;
+    padding: 32px;
+    gap: 16px;
+    left: 10%;
+}
+
+.promocionesTitulo {
+    color: #FFFFFF;
+    text-shadow: black;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 52px;
+    /*font-size: 3.5vw;*/
+    font-weight: 700;
+    line-height: 62.05px;
+    position: relative;
+}
+
+.promocionesDescripcion {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    /*font-size: 1.5vw;*/
+    line-height: 26px;
+}
+
+.promocionesBoton {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    height:51px;
+    line-height: 19px;
+    text-align: center;
+    width: 129px;
+}
+
+    /* M A I N */
+
+.galeria {
+    display: grid;
+    margin: 0 152px;
+}
+
+.galeriaEncabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galeriaTitulo {
+    color: #464646;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+
+.enlace {
+    color: #2A7AE4;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+.galeriaItensLista {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 8px;
+    grid-auto-rows: minmax(252px, auto);
+}
+
+.itenImagen {
+    height: 176px;
+    width: 174px;
+}
+
+.itenTitulo {
+    color: #464646;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.44px;
+}
+
+.itenDescripcion {
+    color: #464646;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+}
+
+    /* F O O T E R */
+
+.conozcanos {
+    display: flex;
+    background: #EAF2FD;
+    height: 368px;
+}
+
+.conozcanosContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 64px 152px;
+}
+
+.conozcanosInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conozcanosInfoLista {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #464646;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    height: 234px;
+    line-height: 18.78px;
+    list-style: none;
+    margin: 24px;
+    order: 1;
+    width: 234px;
+    gap: 24px;
+    
+}
+
+.logoIzquierda {
+    padding: auto;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactoFormulario {
+    height: 240px;
+    width: 560px;
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    display: flex;
+    gap: 8px;
+}
+
+.contactoTitulo {
+    font-family: 'Raleway';
+}
+
+.contactoInput {
+    background-color: #FFFFFF;
+    font-family: Raleway;
+    height: 30px;
+    width: 560px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset;
+}
+
+.contactoTextarea {
+    background: #FFFFFF;
+    font-family: Raleway;
+    height: 100px;
+    width: 560px;
+}
+
+.contactoInput::placeholder {
+    display: flex;
+    align-items: flex-start;
+    color: #A2A2A2;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-weight: 140;
+    font-size: 16px; 
+    line-height: 30px;
+}
+
+.contactoTextarea::placeholder {
+    display: flex;
+    align-items: flex-start;
+    color: #A2A2A2;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 30px;
+}
+
+.enviarCorreo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #2A7AE4;
+    height: 51px;
+    width: 144px;
+    margin: 0 10px;
+}
